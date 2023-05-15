@@ -1,87 +1,193 @@
+
+//пункт 1
+/*let name = prompt ('Ваше имя?');
+alert('Ваше  имя ' +  name);
+console.log('Ваше имя ' + name);
+
+let age = prompt ('Ваш возраст?');
+alert('Вам ' +  age + ' лет!');
+console.log('Вам ' +  age + ' лет!');
+
+let city = prompt ('Ваш город проживания?');
+alert('Ваш город ' + city);
+console.log('Ваш город ' + city);
+
+let phone = prompt ('Ваш номер телефона?');
+alert(' Ваш номер телефона ' + phone);
+console.log('Ваш номер телефона ' + phone);
+
+let email = prompt ('Ваш e-mail?');
+alert('Ваш email ' + email);
+console.log('Ваш email ' + email);
+
+let company = prompt ('Как называется компания, в которой вы работаете?');
+alert('Вы работаете  в ' + company);
+console.log('Вы работаете  в ' + company);
+
+document.write('Мое имя Свит. Мне 30 лет. Проживаю в Минске.Я работаю на дому. Мои контактные данные: номер телефона +375 29 3011111, e-mail: fbgfbfg-777@mail.ru.' + "<br>");
+
 //пункт 2
-let a1 = 5 % 3,
-    a2 = 3 % 5,
-    a3 = 5 +'3',
-    a4 = '5' - 3,
-    a5 = 75 + 'кг',
-    a6 = 785 *653,
-    a7 = 100 / 25,
-    a8 = 0 * 0,
-    a9 = 0 / 2,
-    a10 = 89 / 0,
-    a11 = 98 + 2,
-    a12 = 5 - 98,
-    a13 = (8 + 56 * 4) / 5,
-    a14 = (9 - 12) * 7 / (5 + 2),
-    a15 = + "123",
-    a16 = 1 ||0,
-    a17 = false ||true,
-    a18 = true > 0;
-    console.log (a1, typeof a1);
-    console.log (a2, typeof a2);
-    console.log (a3, typeof a3);
-    console.log (a4, typeof a4);
-    console.log (a5, typeof a5);
-    console.log (a6, typeof a6);
-    console.log (a7, typeof a7);
-    console.log (a8, typeof a8);
-    console.log (a9, typeof a9);
-    console.log (a10, typeof a10);
-    console.log (a11, typeof a11);
-    console.log (a12, typeof a12);
-    console.log (a13, typeof a13);
-    console.log (a14, typeof a14);
-    console.log (a15, typeof a15);
-    console.log (a16, typeof a16);
-    console.log (a17, typeof a17);
-    console.log (a18, typeof a18);
+x=2023;
+let birthYear = x - age;
+document.write ('Мое  имя ' + name + ' мне ' + age + ' лет! ' + 'Я родился в ' + birthYear + ' году');
+console.log('Мое  имя ' + name + ' мне ' + age + ' лет!' + ' Я родился в ' + birthYear + ' году');
+*/
 
 //пункт 3
-let   height = 10,
-       width = 23;
-let SPryam = height * width;
-console.log (SPryam, typeof SPryam);
+let str = '123321';
+   if ((1+2+3) <(3+2+1))
+   {
+    console.log('неправильно');
+} else if  ((1+2+3) > (3+2+1)) {
+    console.log('неправильно.попробуй еще');
+} else  {
+    console.log ('да,молодец');
+}
 
 //пункт 4
-let h = 10,
-    d =  a7,
-    П= 3.14;
-let VCilindra =h * П * d**2 / 4;
-console.log (VCilindra, typeof VCilindra);
+let a= prompt ('число a больше или меньше нуля? (введите число)');
+ if (a< 0) {
+            console.log ('Неверно');
+ } else  { (a >= 0)
+        console.log ('Верно',);
+ } 
 
-//пункт 5
-let r = 5;
-let SKruga = П * r**2;
-console.log (SKruga, typeof SKruga);
+ //пункт 5
+ let A=10,
+     B=2;
+let SUM= A+B;
+let SUM2= A-B;
+let SUM3= A*B;
+let SUM4= A/B;
+console.log (SUM);
+console.log (SUM2);
+console.log (SUM3);
+console.log (SUM4);
 
-//пункт 6
-let a = 5,
-    b = 7;
-let STrap = (a + b) / 2 * h;
-console.log (STrap, typeof STrap);
+if(SUM > 1) { 
+    console.log (SUM**2);
+    //code- код
+} 
+if(SUM2 > 1) { 
+    console.log (SUM2**2);
+    //code- код
+} 
+if(SUM3 > 1) { 
+    console.log (SUM3**2);
+    //code- код
+} 
+if(SUM4 > 1) { 
+    console.log (SUM4**2);
+    //code- код
+} 
 
-//пункт 7
-//Месячная процентная ставка = 10% / 12 = 0.0083
-// коэффициент аннуитета  0.0083× (1 + 0.0083)18 / ((1 + 0.0083)18 − 1) 
-let S = 2000000,
-    p = 10,
-    years = 5;
-let result = p /100/12; //проценты
-let Pereplata = result* (1+ result)**18/ ((1+result)**18-1)
-    console.log (Pereplata, typeof Pereplata);
+ //пункт 6
+  if (A < 11 && A > 2) {
+    console.log ('ВЕРНО');
+  } else {(A >= 11 && A <= 2) 
+    console.log ('НЕ ВЕРНО');
+  }
+  if (B < 6 && B >=14) {
+    console.log ('НЕ ВЕРНО');
+  } else { (B>= 6 && B < 14) 
+    console.log ('ВЕРНО');
+  }
+
+   //пункт 7
+   let N=47;
+if (0 == N || N <=15) {
+    console.log ('1 четверть');
+}else  if (16 <= N && N <=30) {
+    console.log ('2 четверть');
+}else  if (31 <= N && N <= 45) {
+    console.log ('3 четверть');
+} else { (46 <= N && N <= 59)
+    console.log ('4 четверть');
+}
+
 
 //пункт 8
-let A = 8,
-    B= 3;
-let X = (16-A)/2+B;
-let X2 = (15*B-A)/(6-B);
-let X3 = 23780/(2+A+B);
-console.log (X);
-console.log (X2);
-console.log (X3);
+let day=20;
+
+ if (day == 0 && day <= 10) {
+    console.log ('1 декада');
+} else if (11 <= day && day <= 20) {
+    console.log ('2 декада');
+} else { (21 <= day && day <= 31)
+    console.log ('3 декада');
+}
+
+//пункт 9
+/* 1 год=365 дней
+   1 год=12 месяцев 365/12
+   1 год =    дней    365/30,5
+   1 год = 52,18 недель
+   1 год = 8765,8 часа
+   1 год = 525 949,2 минуты
+   1 месяц=31 день   1 месяц=1/12 года
+   1 месяц = 4 недели 1 неделя =
+   1неделя =7 суток 1 сутки =1/7недели   1сутки=1/365года
+   1 день = 24 часа 1/24 суток
+   1 час= 60 минут 8760 */
+   let month= 'Август';
+
+
+let str11 = 'month' + 'day' ;
+
+ switch (month){
+
+         case ('Январь', 'Февраль', 'Декабрь'):
+             console.log ('зима');
+         break;// первый кейс
+         case ('Июнь', 'Июль', 'Август'):
+             console.log ('лето');
+         break;// второй кейс
+         case ('Март', 'Апрель','Май'):
+             console.log ('весна');
+         break; //третий кейс
+         case ('Сентябрь', 'Октябрь', 'Ноябрь'):
+             console.log ('осень');
+         break;// четвертый кейс
+
+
+         System.out.println (month  + day+ ".");
+ }
 
 
 
 
 
+ 
+       switch (month) {
+            case ('Январь', 'Февраль', 'Декабрь'):
+                console.log ('зима');
+            break;// первый кейс
+            case ('Июнь', 'Июль', 'Август'):
+                console.log ('лето');
+            break;// второй кейс
+            case ('Март', 'Апрель','Май'):
+                console.log ('весна');
+            break; //третий кейс
+            case ('Сентябрь', 'Октябрь', 'Ноябрь'):
+                console.log ('осень');
+            break;// четвертый кейс
+                default:
+            break;
+       }
 
+      switch (day) {
+            case ('day == 0 && day <= 10'):
+                console.log ('1 декада');
+            break;// первый кейс
+            case ('11 <= day && day <= 20'):
+                console.log ('2 декада');
+            break;// второй кейс
+            case ('46 <= N && N <= 59'):
+                console.log ('3 декада');
+            break; //третий кейс
+
+            default:
+                break;
+        }
+    
+   //return result;
